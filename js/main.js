@@ -20,7 +20,7 @@ function init(numbersLotto) {
 
 
     function settingData() {
-        let url = "http://davidst.edumedia.ca/mad9014/nums.php";
+        let url = "https://davidst.edumedia.ca/mad9014/nums.php";
         let formData = new FormData();
         
         formData.append("digits", document.getElementById("digits").value);
