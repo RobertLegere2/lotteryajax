@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Pattaya');
+
+html {
+    font-family: Pattaya, "Times New Roman", serif;
+    color: #7F121A;
+    background-color:lightgray;
+}
+
+.active{
+    display:block;
+    
+}
+
+.inactive{
+    display:none;
+    
+}
+
+main {
+}
+
+p {
+    font-size: 1.5rem;
+    padding: 0px;
+}
+
+
+
+@media (max-width: 599px) {
+
+    html {
+        font-family: Pattaya, "Times New Roman", serif;
+        color: #7F121A;
+    }
+
+    .head1 {
+        background-image: url("../img/city.jpeg");
+        background-position: center;
+    }
+
+    .pages {}
+
+
+    div {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        ;
+
+    }
+
+    h1 {
+        font-size: 2rem;
+        color: #7F121A;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 1px solid red;
+        text-shadow: 5px 5px white;
+    }
+    
+
+
+}
+
+@media (min-width: 600px) and (max-width:999px) {
+
+
+
+    html {
+        font-family: Pattaya, "Times New Roman", serif;
+        color: #7F121A;
+    }
+
+    .head1 {
+        background-image: url("../img/city.jpeg");
+        background-position: center;
+    }
+
+    .pages {}
+
+
+    div {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        ;
+
+    }
+
+    h1 {
+        font-size: 3rem;
+        color: #7F121A;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 1px solid red;
+        text-shadow: 5px 5px white;
+    }
+    
+    
+}
+
+
+@media (min-width: 1000px) {
+
+
+    html {
+        font-family: Pattaya, "Times New Roman", serif;
+        color: #7F121A;
+    }
+
+    .head1 {
+        background-image: url("../img/city.jpeg");
+        background-position: center;
+    }
+
+    .pages {}
+
+
+    div {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+
+    }
+
+    h1 {
+        font-size: 4rem;
+        color: #7F121A;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 1px solid red;
+        text-shadow: 5px 5px white;
+        
+
+    
+    p {
+        font-size: 1.5rem;
+    {
+        
+    
+}
+
